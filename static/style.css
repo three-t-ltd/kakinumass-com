@@ -126,3 +126,49 @@
   .motion-ready .motion-reveal{opacity:1;transform:none;clip-path:none}
   .motion-ready .motion-drawing .draw-path,.motion-ready .motion-drawing.visible .draw-path{stroke-dasharray:none;stroke-dashoffset:0;transition:none}
   html{scroll-behavior:auto}*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}.js-ready .reveal{opacity:1;transform:none}}
+
+/* column */
+.column-hero h1{font-size:clamp(26px,3vw,44px);line-height:1.6;letter-spacing:.04em}
+.column-meta{font-size:11px;letter-spacing:.06em;color:var(--muted);margin-top:18px}
+.column-article{max-width:800px;margin:0 auto;padding-top:60px;font-family:var(--font-jp)}
+.column-article h2{font-size:24px;line-height:1.6;font-weight:700;margin:68px 0 22px;padding-top:26px;border-top:1px solid var(--line)}
+.column-article h3{font-size:17px;line-height:1.7;font-weight:700;margin:38px 0 12px}
+.column-article p{font-size:15px;line-height:2.05;letter-spacing:.02em;margin:0 0 18px}
+.column-article a{color:var(--red);text-decoration:underline;text-underline-offset:3px}
+.column-answer{background:#fff;border-left:3px solid var(--red);padding:26px 28px}
+.column-answer p:last-child{margin:0}
+.column-answer-label{font-size:12px!important;font-weight:700;letter-spacing:.08em;margin-bottom:10px!important}
+.column-table{width:100%;min-width:520px;border-collapse:collapse;font-size:14px;line-height:1.7;margin:10px 0 0}
+.column-table caption{text-align:left;font-size:12px;color:var(--muted);padding-bottom:8px}
+.column-table th,.column-table td{border-bottom:1px solid var(--line);padding:12px 10px;text-align:left;vertical-align:top}
+.column-table th{font-weight:700;font-size:12px}
+.column-photos{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:24px 0 8px}
+.column-photos figure{margin:0}
+.column-photos img{display:block;width:100%;height:auto;aspect-ratio:3/4;object-fit:cover}
+.column-photos figcaption{font-size:12px;color:var(--muted);margin-top:8px}
+.column-checks li{font-size:15px;line-height:1.95}
+.column-checks li:before{top:27px}
+.column-company{background:#fff;padding:6px 28px 14px;margin-top:68px}
+.column-company h2{border:0;margin:22px 0 10px;font-size:17px;padding:0}
+.column-sources h2{font-size:17px}
+.column-sources ul{padding-left:18px;margin:0}
+.column-sources li{font-size:12px;line-height:1.9;margin-bottom:6px}
+.column-related{font-size:12px;line-height:1.9;margin:18px 0 0}
+.column-related a{color:var(--red);text-decoration:underline;text-underline-offset:3px}
+.column-list{list-style:none;margin:0;padding:0}
+.column-list li{border-top:1px solid var(--line)}
+.column-list li:last-child{border-bottom:1px solid var(--line)}
+.column-list a{display:grid;grid-template-columns:150px 1fr;gap:26px;align-items:start;padding:30px 0}
+.column-list img{display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:cover}
+.column-list small{display:block;font-size:11px;letter-spacing:.06em;color:var(--muted);margin-bottom:8px}
+.column-list strong{display:block;font-family:var(--font-jp);font-size:19px;line-height:1.7;font-weight:700;margin-bottom:8px}
+.column-list span{display:block;font-size:13px;line-height:2;color:#585b55}
+@media(max-width:760px){.column-hero h1{font-size:22px}.column-article{padding-top:38px}.column-article h2{font-size:20px;margin-top:52px}.column-article h3{font-size:16px}.column-article p,.column-checks li{font-size:14px}.column-answer,.column-company{padding-left:18px;padding-right:18px}.column-list a{grid-template-columns:90px 1fr;gap:16px;padding:22px 0}.column-list strong{font-size:16px}.column-list span{display:none}}
+
+/* column-company */
+.column-table tbody th{width:8em;font-weight:700;font-size:13px}
+.column-quote{margin:0 0 18px;padding:4px 0 4px 22px;border-left:2px solid var(--line)}
+.column-quote p{margin:0}
+.column-portrait{display:grid;grid-template-columns:120px 1fr;gap:22px;align-items:start}
+.column-portrait img{display:block;width:100%;height:auto;aspect-ratio:3/4;object-fit:cover}
+@media(max-width:760px){.column-portrait{grid-template-columns:80px 1fr;gap:14px}}
