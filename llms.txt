@@ -44,6 +44,10 @@ A. 用途や使用環境、必要な形状など、わかる情報をお知ら�
 Q. どのくらいの数量・納期に対応できますか？
 A. 形状・材質・加工内容・数量・稼働状況によって異なります。必要数量と希望納期をお知らせください。このサイトでは一律の納期や最小ロットは設定していません。（https://kakinumass.com/contact/）
 
+## コラム
+
+- [柿沼製作所とは？「どうつくるか」から考える、千葉県富里市の精密板金会社](https://kakinumass.com/column/kakinuma-seisakusho/): 柿沼製作所の概要、理念、提案で選ばれる会社を目指す考え方、職人の手作業、これからの取り組み
+
 ## リンク
 
 - [トップ](https://kakinumass.com/)
@@ -52,5 +56,6 @@ A. 形状・材質・加工内容・数量・稼働状況によって異なり�
 - [製作事例](https://kakinumass.com/works/)
 - [会社紹介](https://kakinumass.com/about/)
 - [お問い合わせ](https://kakinumass.com/contact/)
+- [コラム](https://kakinumass.com/column/)
 - [Instagram](https://www.instagram.com/kakinumass/)
 - [会社紹介動画](https://www.youtube.com/watch?v=X4dyCx2qvk0)
