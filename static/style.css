@@ -172,3 +172,17 @@
 .column-portrait{display:grid;grid-template-columns:120px 1fr;gap:22px;align-items:start}
 .column-portrait img{display:block;width:100%;height:auto;aspect-ratio:3/4;object-fit:cover}
 @media(max-width:760px){.column-portrait{grid-template-columns:80px 1fr;gap:14px}}
+/* PCは見出し左・本文右の2列（他ページの会社概要と同じ幅を使う） */
+.column-side{font-family:var(--font-en,inherit);font-size:11px;font-weight:700;letter-spacing:.12em;color:var(--muted);margin:0 0 14px}
+@media(min-width:1025px){
+.column-article.column-wide{max-width:none;margin:0;padding-top:72px}
+.column-wide .column-section{display:grid;grid-template-columns:minmax(0,4fr) minmax(0,8fr);column-gap:6%;align-items:start;border-top:1px solid var(--line);padding-top:52px;margin-top:76px}
+.column-wide .column-section.column-lead{border-top:0;padding-top:0;margin-top:0}
+.column-wide .column-section>h2,.column-wide .column-section>.column-side{position:sticky;top:120px;margin:0;padding:0;border:0}
+.column-wide .column-section>h2{font-size:22px;line-height:1.7;text-wrap:balance;word-break:auto-phrase}
+.column-wide .column-body{max-width:780px}
+.column-wide .column-body>:first-child{margin-top:0}
+.column-wide .column-company{background:none;padding:52px 0 0}
+.column-wide .column-company .column-body{background:#fff;padding:28px 30px 14px}
+}
+@media(max-width:1024px){.column-side{display:none}}
